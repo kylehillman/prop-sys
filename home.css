@@ -1,6 +1,7 @@
 h1 {
 	font-family: sans-serif;
 	text-align: center;
+	font-size: medium;
 	color: rgb(188, 231, 235);
 	background-color: mediumblue;
 }
@@ -8,7 +9,7 @@ h1 {
 button {
 	font-family: sans-serif;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: rgb(228, 235, 188);
 	background-color: rgb(205, 82, 0);
 }
