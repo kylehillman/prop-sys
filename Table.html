@@ -7,29 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>My first PHP page</h1>
-<form action="welcome.php" method="post">
+<form>
     Engine Name: <input type="text" name="name"><br>
     Chamber Pressure: <input type="text" name="pc"><br>
     Mass Flow: <input type="text" name="mdot"><br>
     <input type="submit">
     </form>
-<p1>
-    Did the server connect
-</p1>
-    <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "Bfnd2014!";
-    
-    // Create connection
-    $conn = new mysqli($servername, $username, $password);
-    
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
-    echo "Connected successfully";
-    ?>
 </body>
 </html>
