@@ -12,7 +12,7 @@ res.send('<h1>', Date, '</h1>');
 });
 
 app.get('/', function (req, res) {
-    res.send('<form action="/store-user" method="POST"><label><input type="text" name="username"></label></form>');
+    res.send('<form action="/store-user" method="POST"><label>Your Name  <input type="text" name="username"></label></form>');
 });
 
 app.post('/store-user', function(req,res){
